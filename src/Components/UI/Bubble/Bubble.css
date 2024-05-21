@@ -1,0 +1,45 @@
+.container {
+  /* background-color: antiquewhite; */
+  width: fit-content;
+}
+
+.talk-bubble {
+  margin: 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+  color: #20564a;
+  display: inline-block;
+  position: relative;
+  min-width: 300px;
+  max-width: 300px;
+  width: fit-content;
+  height: auto;
+  background-color: rgba(186, 230, 165, 0.735);
+}
+
+.round {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+
+.tri-right.left-in:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -24px;
+  right: auto;
+  top: 50px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: rgba(186, 230, 165, 0.735) rgba(186, 230, 165, 0.735)
+    transparent transparent;
+}
+
+/* talk bubble contents */
+.talktext {
+  padding: 1em;
+  text-align: left;
+  line-height: 1.5em;
+}

@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+  min-height: 300px;
+  height: fit-content;
+  width: 75%;
+  padding: 2% 1% 2% 3%;
+  background-color: rgba(150, 223, 78, 0.769);
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.questionContainer {
+  display: flex;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.optionsContainer {
+  text-align: center;
+  margin: 2% 0 2% 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+}
+
+.option {
+  margin: 0;
+}
+
+.option img {
+  margin: 1.5% 0 0 0;
+  height: 50px;
+  width: 50px;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+}

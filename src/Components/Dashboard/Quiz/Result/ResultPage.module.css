@@ -1,0 +1,156 @@
+.container {
+  margin: 0;
+  padding: 0 0 3% 0;
+  min-height: 100vh;
+  background: url("../../../../images/Wireframe2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.container h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 5em;
+  background: -webkit-linear-gradient(
+    rgb(169, 224, 127) 0%,
+    rgb(248, 247, 121) 86.6%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 3px 3px #5ba148d3;
+  margin: 5% 0 0 0;
+}
+
+.resultContainer {
+  color: #22561d;
+  margin: 4% auto;
+  width: 70%;
+  min-height: 500px;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 3%;
+  background-color: rgba(221, 255, 117, 0.493);
+  box-shadow: 5px 5px 5px rgba(105, 105, 105, 0.678);
+}
+
+.eachResult {
+  display: flex;
+  width: auto;
+  margin: 3% 0;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+
+.info1 {
+  width: 210px;
+  text-align: left;
+}
+
+.info2 {
+  width: 20px;
+  text-align: center;
+}
+
+.info3 {
+  width: 250px;
+  text-align: center;
+}
+
+.gradeResult {
+  display: flex;
+  width: auto;
+  margin: 10% 0 2% 0;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+
+.infoGrade1 {
+  width: 210px;
+  margin: 5% 0 0 0;
+  text-align: left;
+}
+
+.infoGrade2 {
+  width: 20px;
+  margin: 5% 0 0 0;
+  text-align: center;
+}
+
+.infoGrade3 {
+  width: 250px;
+  height: 150px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 3em;
+  text-align: center;
+  background-color: #36a72c;
+  background-size: 80%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.progressbar {
+  margin: 0 auto 5% auto;
+  font-family: "Abril Fatface", cursive;
+}
+
+.detailedResult button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  padding: 1.5% 3%;
+  border-radius: 20px;
+  border-style: none;
+  color: #22561d;
+  background-color: #6ac351c3;
+  cursor: pointer;
+}
+
+.detailedResult button:hover {
+  background-color: #b3ffa0c3;
+  box-shadow: 3px 3px 20px rgba(156, 155, 155, 0.724);
+}
+
+.redirect {
+  width: fit-content;
+  margin: 2% auto;
+  color: #51784d7b;
+  cursor: pointer;
+}
+
+.redirect:hover {
+  color: #51784d;
+}
+
+.individualResultContainer {
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.navigators {
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 11%;
+}
+
+.navigators button {
+  /* font-family: "Abril Fatface", cursive; */
+  font-size: 2.3em;
+  padding: 1% 3%;
+  border-radius: 40%;
+  background-color: #34802d;
+  color: aliceblue;
+}
+
+.navigators button:hover {
+  background-color: #51784dcb;
+  transform: scale(0.95);
+}
+
+.navigators button:disabled {
+  background-color: grey;
+  color: rgb(173, 170, 170);
+  cursor: not-allowed;
+}

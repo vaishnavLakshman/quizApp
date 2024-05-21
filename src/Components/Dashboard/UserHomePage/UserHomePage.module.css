@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+
+.container {
+  margin: 0;
+  min-height: 100vh;
+  background: url("../../../images/Plants3.png"),
+    url("../../../images/standingGirl.png"), url("../../../images/sitting.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: cover, 10%, 10%;
+  background-position: center, 90% 100%, 98.5% 100%;
+}
+
+/* #5BA194 */
+
+.optionsContainer h1 {
+  font-family: "Borel", cursive;
+  color: #7baea6;
+  margin: 0 auto 0 auto;
+  font-size: 3em;
+}
+
+.options {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  text-align: center;
+  margin: 2% 0 0 0;
+}
+
+.option1 {
+  background-color: antiquewhite;
+  width: 170px;
+  height: 170px;
+  margin: 0 5% 0 5%;
+  position: relative;
+  /* border: 1px solid black; */
+  border-radius: 20%;
+  background: url("../../../images/quiz.svg"), rgb(231, 237, 234);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  box-shadow: 7px 7px 50px rgb(137, 136, 136);
+}
+
+.option1 a {
+  text-decoration: none;
+}
+
+.option2 {
+  background-color: antiquewhite;
+  width: 170px;
+  height: 170px;
+  margin: 0 5% 0 5%;
+  position: relative;
+  /* border: 1px solid black; */
+  border-radius: 20%;
+  background: url("../../../images/trophy.svg"), rgb(231, 237, 234);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  box-shadow: 7px 7px 50px rgb(137, 136, 136);
+}
+
+.option2 a {
+  text-decoration: none;
+}
+
+.option3 {
+  background-color: antiquewhite;
+  width: 170px;
+  height: 170px;
+  margin: 0 5% 0 5%;
+  position: relative;
+  /* border: 1px solid black; */
+  border-radius: 20%;
+  background: url("../../../images/user.svg"), rgb(231, 237, 234);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  box-shadow: 7px 7px 50px rgb(137, 136, 136);
+}
+
+.option3 a {
+  text-decoration: none;
+}
+
+.tempVisible {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(24, 98, 84);
+  position: absolute;
+  text-align: center;
+  border-radius: 20%;
+  padding: 25% 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.tempVisible:hover {
+  opacity: 1;
+  backdrop-filter: blur(10px);
+}

@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "firstName": "Robin",
+      "lastName": "Mathew",
+      "password": "robin123",
+      "email": "",
+      "username": "robin.m",
+      "totalGames": 20,
+      "winPercent": 50,
+      "totalGrade": "B",
+      "currentGame": {
+        "questions": 10,
+        "correctAnswers": 5,
+        "category": "General Knowledge",
+        "difficulty": "Beginner"
+      }
+    },
+    {
+      "id": 1,
+      "firstName": "Surabhi",
+      "lastName": "Sudhi",
+      "password": "surabhi123",
+      "email": "surabhi@gmail.com",
+      "username": "surabhi.s",
+      "totalGames": 22,
+      "winPercent": "45.46",
+      "totalGrade": "D",
+      "currentGame": {
+        "questions": 7,
+        "correctAnswers": 5,
+        "category": "General Knowledge",
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Vaishnav",
+      "lastName": "Lakshman",
+      "password": "vaishnav123",
+      "email": "",
+      "username": "vaishnav.cc",
+      "totalGames": 23,
+      "winPercent": "43.48",
+      "totalGrade": "D",
+      "currentGame": {
+        "questions": 5,
+        "correctAnswers": 2,
+        "category": "Science &amp; Nature",
+        "difficulty": "Easy"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "index": 1,
+      "answer": "Oxygen",
+      "id": 1
+    },
+    {
+      "index": 2,
+      "answer": "Iota Cephei",
+      "id": 2
+    },
+    {
+      "index": 3,
+      "answer": "Space",
+      "id": 3
+    },
+    {
+      "index": 4,
+      "answer": "Jupiter",
+      "id": 4
+    },
+    {
+      "index": 5,
+      "answer": "Apollo 11",
+      "id": 5
+    }
+  ]
+}

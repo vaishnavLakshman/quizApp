@@ -1,0 +1,38 @@
+.container {
+  margin: 0;
+  min-height: 93.5vh;
+  height: fit-content;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 3% 0;
+  background: url("../../../images/Plants.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tabs {
+  margin: 2% 0 0 0;
+}
+
+.resultContainer {
+  width: auto;
+  min-height: 250px;
+  height: fit-content;
+  background-color: rgba(149, 218, 196, 0.628);
+  color: #454444;
+  box-shadow: 5px 5px 50px rgba(101, 101, 101, 0.715);
+  margin: 0 20%;
+  padding: 3% 5%;
+  border: 1px solid black;
+  border-style: none;
+}
+
+.individualData {
+  display: flex;
+  margin: 0 5% 0 0;
+}
+
+.individualData h3 {
+  width: 350px;
+  text-align: right;
+  margin-right: 10%;
+}

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+.container {
+  margin: 0;
+  min-height: 100vh;
+  height: fit-content;
+  font-family: "Montserrat", sans-serif;
+  background: url("../../../../images/Wireframe2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quizHomeContainer h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 2.7em;
+  color: rgb(55, 126, 99);
+  margin: 0 auto 1% auto;
+}
+
+.formBox {
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  background-color: rgba(173, 233, 213, 0.621);
+  min-width: 300px;
+  width: fit-content;
+  padding: 3% 5%;
+  margin: 3% 32%;
+}
+
+.resultBox {
+  /* border: 1px solid black; */
+  background-color: rgba(161, 242, 143, 0.621);
+  color: #2c4844;
+  min-width: 300px;
+  width: fit-content;
+  padding: 3% 5%;
+  margin: 3% 33%;
+}
+
+.resultBox p {
+  margin: 5% 0 -3% 0;
+  color: #2c48445b;
+  cursor: pointer;
+}
+
+.resultBox p:hover {
+  color: #2c48449c;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.selections {
+  width: 350px;
+  margin: 9% 0;
+}
+
+.selections label {
+  display: inline-block;
+  text-align: right;
+  color: #275a52;
+  margin-right: 10%;
+  width: 150px;
+}
+
+.selections select {
+  width: 150px;
+  height: 20px;
+  border-style: none;
+  height: 25px;
+}
+
+.selections input {
+  width: 145px;
+  height: 23px;
+  border-style: none;
+}
+
+.formBox button {
+  margin: 5% 0 0 0;
+  padding: 2% 4%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgb(55, 126, 99);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.formBox button:hover {
+  transform: scale(1.1);
+  /* background-color: #8aa6a0; */
+  background-color: #ffffff;
+  color: #21463e;
+  box-shadow: 5px 5px 30px rgb(134, 134, 134);
+}
+
+.resultBox button {
+  margin: 5% 0 0 0;
+  padding: 2% 4%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgb(55, 126, 99);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.resultBox button:hover {
+  transform: scale(1.1);
+  /* background-color: #8aa6a0; */
+  background-color: #ffffff;
+  color: #21463e;
+}
+
+.resultBox button:disabled {
+  transform: scale(1);
+  background-color: #545b5a;
+  color: rgb(168, 166, 166);
+  cursor: wait;
+}

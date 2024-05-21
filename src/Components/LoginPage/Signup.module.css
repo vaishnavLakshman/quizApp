@@ -1,0 +1,113 @@
+.container {
+  margin: 0;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../images/Wireframe.png");
+  background-size: contain;
+}
+
+.formData {
+  background-color: rgb(122, 194, 180);
+  position: absolute;
+  width: fit-content;
+  min-height: 500px;
+  height: fit-content;
+  border-radius: 20px;
+  box-shadow: 5px 5px 40px rgba(70, 69, 69, 0.523);
+}
+
+.loginbox {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.forms {
+  text-align: center;
+  width: auto;
+}
+
+.formData h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  color: rgb(37, 99, 86);
+  margin: 5% 0 6% 0;
+}
+
+.formbox {
+  font-size: 1.3em;
+  margin: 5% 0;
+  width: 520px;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formbox label {
+  margin-right: 3%;
+  color: #415c56;
+  font-size: 0.8em;
+  display: inline-block;
+  text-align: right;
+  width: 160px;
+}
+
+.formbox input {
+  height: 25px;
+  min-width: 200px;
+  padding: 1% 5% 1% 1%;
+  font-size: 0.7em;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.formbox p {
+  font-size: 0.8em;
+  color: rgb(131, 77, 77);
+  margin: 1% 0 0 32%;
+}
+
+.loginbox button {
+  font-family: "Montserrat", sans-serif;
+  margin: 2% 0 0 0;
+  padding: 2% 4%;
+  font-size: 1.1em;
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: 2px 2px 10px rgb(72, 72, 72);
+  cursor: pointer;
+  background-color: rgb(231, 233, 234);
+}
+
+.loginbox button:hover {
+  color: white;
+  background-color: rgb(76, 150, 135);
+  box-shadow: 1px 1px 3px rgb(72, 72, 72);
+}
+
+.signin a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: rgba(37, 99, 86, 0.66);
+}
+
+.signin p:hover {
+  color: rgb(34, 78, 69);
+  text-decoration: underline;
+}
+
+.criteria1 {
+  z-index: 30;
+  position: relative;
+  top: 8px;
+  left: 380px;
+}
+
+.criteria2 {
+  z-index: 30;
+  position: relative;
+  top: 88px;
+  left: 380px;
+}

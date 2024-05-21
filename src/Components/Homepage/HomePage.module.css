@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Pacifico&family=Poppins:wght@500&family=Montserrat:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+.whole {
+  margin: 0;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(0.35turn, rgb(137, 214, 200), rgb(224, 224, 224));
+}
+
+.contentBox {
+  display: flex;
+  border: 1px;
+  border-style: none;
+  border-radius: 18px;
+  background: url("../../images/Home.png"), rgb(122, 194, 180);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  box-shadow: 50px 50px 45px rgba(77, 77, 77, 0.397);
+  min-height: 400px;
+  width: 75%;
+}
+
+.leftBox {
+  width: 50%;
+  text-align: center;
+  margin: 4% 0;
+}
+
+.leftBox h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 3em;
+  color: rgb(46, 109, 97);
+}
+
+.rightBox {
+  width: 50%;
+  text-align: right;
+  padding: 1.5% 1.8% 0 0;
+}
+
+.writeup {
+  margin: 5% 2% 3% 7%;
+  padding: 4%;
+  color: rgb(58, 116, 105);
+  font-size: 1em;
+  width: 400px;
+  text-align: center;
+}
+
+.signup {
+  margin: 10% 0 0 0;
+}
+
+.signup a {
+  text-decoration: none;
+}
+
+.signupLink {
+  color: rgba(69, 132, 111, 0.463);
+}
+
+.signupLink:hover {
+  color: rgb(44, 119, 165);
+  text-decoration: underline;
+}
+
+.rightBox button {
+  border-style: none;
+  border-radius: 20px;
+  color: rgb(77, 154, 139);
+  background-color: rgb(241, 241, 241);
+  font-size: 1em;
+  font-family: "Abril Fatface", cursive;
+  padding: 2.5% 5%;
+  cursor: pointer;
+  transition: ease-in-out 0.1s;
+}
+
+.rightBox button:hover {
+  background-color: rgb(66, 133, 118);
+  transform: scale(0.95);
+  color: rgb(217, 216, 216);
+  box-shadow: 5px 5px rgba(53, 53, 53, 0.63);
+}

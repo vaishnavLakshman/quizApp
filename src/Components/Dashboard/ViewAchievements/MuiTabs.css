@@ -1,0 +1,12 @@
+.MuiTabs-indicator {
+  background: #56a594 !important;
+}
+
+.Mui-selected {
+  /* font-family: "Montserrat", sans-serif !important; */
+  color: #488276 !important;
+}
+
+.MuiButtonBase-root {
+  font-family: "Montserrat", sans-serif !important;
+}
